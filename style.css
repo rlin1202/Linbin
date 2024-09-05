@@ -30,3 +30,13 @@ header{
 .navbar a:hover{
     color: cornflowerblue;
 }
+.container{
+    padding:20px 5%;
+    position:relative;
+    height:70vh;
+}
+.text{
+    position:absolute;
+    top:100px;
+    left:200px;
+}
