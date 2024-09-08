@@ -21,6 +21,7 @@ header{
     margin:50px 0 50px 0;
 }
 .navbar a{
+    color:black;
     margin-left:30px;
     font-size:24px;
     font-weight:500;
@@ -30,13 +31,30 @@ header{
 .navbar a:hover{
     color: cornflowerblue;
 }
-.container{
-    padding:20px 5%;
-    position:relative;
-    height:70vh;
+#about{
+    padding:10px 10%;
 }
-.text{
-    position:absolute;
-    top:100px;
-    left:200px;
+#about h1{
+    font-size:40px;
+}
+#about p{
+    font-size:25px;
+    margin:70px 0px 70px 0px;
+}
+#about img {
+    border-radius:50%;
+    margin-right:20px;
+    float:left;
+}
+#contact{
+    padding:10px 15%;
+}
+.contact-links{
+    list-style-type: none;
+    float:left;
+    
+}
+.contact-links li{
+    display:inline-block;
+    padding:14px 16px;
 }
