@@ -8,23 +8,46 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 </head>
-<body id="home">
-    <header>
-        <h1 class="logo">Lin<span id="creative">Bin~</span></h1>
+<body>
+    <header class="align">
+        <h2 id="logo">Lin<span id="creative">Bin~</span></h1>
         <nav class="navbar">
-            <a href="#home">Home</a>
             <a href="#about">About</a>
             <a>Projects</a>
             <a>Contact</a>
         </nav>
     </header>
-    <div id="about">
-        <h1>Hi I'm Ryan Lin</h1>
-        <img src="./images/me.jpg" alt="Ryan Lin" height="200px">
-        <p>I am an aspiring software engineer pursuing my undergrad in computer science at the SUNY University At Buffalo.
-            I enjoy working out, gaming, playing sports, and of course programming. My goals are to further develop at programming
-            and be able to create anything I want with code.
-        </p>
-    </div>
+    <section id="about" class="align">
+            <h2>Hi I'm Ryan Lin</h2>
+            <img src="./images/me.jpg" alt="Ryan Lin" height="200px">
+        <div id="about-text">
+            <p>I am an undergrad student at the SUNY University At Buffalo,
+                <br>pursuing my bachelors degree in computer science.
+                <br>My goals are to futher devlop at programming and to become a software engineer.
+            </p>
+            <div id="skills">
+                <p><h3>Skills:</h3>   
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>Java</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>PostGres SQL</li>
+                    <li>Git</li>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="align">
+        <h2 class="align-text">Here Are Some Of My Projects</h2>
+        <div class="container">
+            <div class="project-container align-text">
+                <div>Project 1</div>
+                <div>Project 2</div>
+                <div>Project 3</div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

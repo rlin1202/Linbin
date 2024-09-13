@@ -8,14 +8,15 @@ body{
 header{
     display:flex;
     justify-content: space-between;
-    padding:20px 10%;
+}
+.align {
+    padding: 20px 10%;
 }
 #creative {
     color:cornflowerblue;
 }
-.logo {
+#logo {
     font-size:3rem;
-    
 }
 .navbar{
     margin:50px 0 50px 0;
@@ -31,30 +32,39 @@ header{
 .navbar a:hover{
     color: cornflowerblue;
 }
-#about{
-    padding:10px 10%;
+#about {
+    margin-bottom: 20px;
 }
-#about h1{
+#about h2{
     font-size:40px;
-}
-#about p{
-    font-size:25px;
-    margin:70px 0px 70px 0px;
 }
 #about img {
     border-radius:50%;
     margin-right:20px;
     float:left;
 }
-#contact{
-    padding:10px 15%;
+#about-text{
+    padding-top: 30px;
 }
-.contact-links{
-    list-style-type: none;
-    float:left;
-    
+.align-text{
+    text-align:center;
 }
-.contact-links li{
-    display:inline-block;
+.container {
+    display:flex;
+    height:100vh;
+    justify-content:center;
+    align-items:center;
+}
+.project-container {
+    display:grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows:200px 200px 200px;
+}
+#skills h3{
+    display:inline;
+}
+#skills li{
+    list-style: none;
+    display:inline;
     padding:14px 16px;
 }
