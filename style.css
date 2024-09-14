@@ -100,4 +100,20 @@ header{
     color:cornflowerblue;
     transition: .5s;
 }
+#contact{
+    font-size:20px;
+}
+#contact a{
+    color:cornflowerblue;
+    text-decoration: none;
+    border:solid;
+    border-radius:18px;
+    margin-top:30px;
+    padding:10px;
+}
+#contact a:hover{
+    background-color: cornflowerblue;
+    color:white;
+    transition:.7s;
+}
 
