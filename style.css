@@ -4,6 +4,8 @@
 body{
     padding:0;
     margin:0;
+    background-color:black;
+    color:white;
 }
 .align-text{
     text-align:center;
@@ -21,28 +23,36 @@ header{
     justify-content:center;
     align-items:center;
 }
+.display-inline{
+    display:inline;
+}
+.margin-top{
+    margin-top:30px;
+}
 #creative {
     color:cornflowerblue;
 }
 #logo {
-    font-size:3rem;
+    font-size:2.8rem;
 }
 .navbar{
-    margin:50px 0 50px 0;
+    margin:53.5px 0 53.5px 0;
 }
 .navbar a{
-    color:black;
+    color:white;
     margin-left:30px;
     font-size:24px;
     font-weight:500;
     text-decoration: none;
-    transition:.3s;
 }
 .navbar a:hover{
     color: cornflowerblue;
+    transition:.5s;
 }
 #about {
-    margin-bottom: 20px;
+    margin:0px 50px 0px 50px;
+    border:solid cornflowerblue;
+    border-radius:18px;
 }
 #about h2{
     font-size:40px;
@@ -53,23 +63,41 @@ header{
     float:left;
 }
 #about-text{
-    padding-top: 30px;
-}
-#skills h3{
-    display:inline;
+    padding-top:15px;
 }
 #skills li{
     list-style: none;
     display:inline;
     padding:14px 16px;
 }
+#resume a{
+    color:white;
+    padding-left:5px;
+    font-size: 18px;
+    text-decoration:none;
+}
+#resume a:hover{
+    color:cornflowerblue;
+    transition:.5s;
+}
+#hobbies {
+    padding-bottom:40px;
+}
 #projects {
     margin-top: 50px;
 }
 .project-container {
     display:grid;
-    gap:10px;
+    gap:5px;
     grid-template-columns: 575px 575px;
     grid-template-rows:300px 300px;
+}
+#tindog,#moveit{
+    color:white;
+    text-decoration:none;
+}
+#tindog:hover,#moveit:hover{
+    color:cornflowerblue;
+    transition: .5s;
 }
 
