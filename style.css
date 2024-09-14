@@ -116,4 +116,14 @@ header{
     color:white;
     transition:.7s;
 }
+#footer a{
+    padding:0px 10px;
+    font-size:20px;
+    text-decoration: none;
+    color:white;
+}
+#footer a:hover{
+    color:cornflowerblue;
+    transition:.7s;
+}
 
