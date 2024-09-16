@@ -50,7 +50,7 @@ header{
     transition:.5s;
 }
 #about {
-    margin:0px 50px 0px 50px;
+    margin:0px 10%;
     border:solid cornflowerblue;
     border-radius:18px;
 }
@@ -89,8 +89,8 @@ header{
 .project-container {
     display:grid;
     gap:5px;
-    grid-template-columns: 575px 575px;
-    grid-template-rows:300px 300px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr 1fr;
 }
 #tindog,#moveit{
     color:white;
@@ -125,5 +125,12 @@ header{
 #footer a:hover{
     color:cornflowerblue;
     transition:.7s;
+    transition-timing-function: ease-in-out;
 }
-
+@media(max-width:600px)
+{
+    .grid-container{
+        grid-template-columns: 1fr;
+        grid-template-rows:1fr;
+    }
+}
