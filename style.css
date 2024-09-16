@@ -89,8 +89,8 @@ header{
 .project-container {
     display:grid;
     gap:5px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows:1fr 1fr;
+    grid-template-columns: repeat(2,500px);
+    grid-template-rows:repeat(2,250px);
 }
 #tindog,#moveit{
     color:white;
